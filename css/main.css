@@ -98,6 +98,10 @@ header {
     margin: 30px;
 }
 
+header img {
+    width: 70%;
+}
+
 #experience img {
     width: 25%;
 }

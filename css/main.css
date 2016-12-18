@@ -9,8 +9,14 @@ html {
 }
 
 body {
+    background-image: url("../img/bluefloralbg.jpg");
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#container {
     width: 75%;
-    background-color: #88b04b;
+    background-color: #bfc5c2;
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
@@ -43,10 +49,13 @@ h3,
 h5 {
     font-family: "caviar";
     font-size: 1.6em;
+    font-variant: small-caps;
 }
 
-h2 {
+h2,
+.scriptSpan {
     font-size: 3.2em;
+    padding-top: 70px;
 }
 
 h4,
@@ -58,7 +67,6 @@ nav,
 p {
     font-family: "ABeeZee";
     font-size: 1.3em;
-    padding: 10px;
 }
 
 footer p {
@@ -81,11 +89,6 @@ h4 {
     padding: 0;
 }
 
-#contact {
-    width: 50%;
-    margin: auto;
-}
-
 nav ul {
     display: inline;
 }
@@ -104,4 +107,20 @@ header img {
 
 #experience img {
     width: 25%;
+}
+
+#services h3,
+#services p {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#services p {
+    padding-left: 40px;
+}
+
+#contact {
+    width: 50%;
+    margin: auto;
 }
